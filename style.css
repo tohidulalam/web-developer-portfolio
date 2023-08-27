@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 230px;
+    margin-right: 230px;
+    
+}
+
+.navigation h3{
+    margin-top: 50px;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.nav-items{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+   
+}
+
+.nav-items li,a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+    color: #474747;
+}
+
+.button{
+    padding: 15px 30px 15px 30px;
+    background-color: orange;
+    border-radius: 5px;
+
+}
+.style-r{
+    color: orange;
+}
